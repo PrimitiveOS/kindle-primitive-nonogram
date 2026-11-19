@@ -187,7 +187,7 @@ impl App for View {
     fn draw(&self, canvas: &mut Canvas) {
         let width = canvas.bounds().w;
         let puzzle = self.book.puzzle();
-        header(canvas, "Picture Logic", "Done");
+        header(canvas, "Nonogram", "Done");
         canvas.text(
             screen_rect(width, 40, 155, 620, 54),
             &format!(

@@ -2,7 +2,7 @@
   "schema": 1,
   "id": "primitive-picturelogic",
   "dir": "picturelogic",
-  "name": "Picture Logic",
+  "name": "Nonogram",
   "subtitle": "Reveal a picture from number clues",
   "developer": {
     "name": "Primitive AI"

@@ -1,8 +1,8 @@
-# Picture Logic
+# Nonogram
 
-Picture Logic reveals small pixel pictures through number clues. It includes twelve original puzzles for PrimitiveOS, with six 5 × 5 boards and six 10 × 10 boards.
+Nonogram reveals small pixel pictures through number clues. It includes twelve original puzzles for PrimitiveOS, with six 5 × 5 boards and six 10 × 10 boards.
 
-![An in-progress 10 × 10 Picture Logic puzzle](docs/images/picturelogic.png)
+![An in-progress 10 × 10 Nonogram puzzle](docs/images/picturelogic.png)
 
 Each clue gives the lengths of the filled runs in its row or column, in order. Leave at least one empty square between runs. Choose **Fill** to ink squares or **Mark ×** to rule them out. Tap a square again with the same tool to clear it. A clue becomes muted when the line's filled runs match it.
 
@@ -10,7 +10,7 @@ Finish any puzzle to reveal its picture and name. Use **Previous** and **Next** 
 
 ## Install
 
-Open **Store** from Primitive Launcher, search for **Picture Logic**, and install it. See the [installation guide](INSTALL.md) for local testing.
+Open **Store** from Primitive Launcher, search for **Nonogram**, and install it. See the [installation guide](INSTALL.md) for local testing.
 
 ## Desktop preview
 

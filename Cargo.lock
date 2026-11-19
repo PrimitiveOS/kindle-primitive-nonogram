@@ -52,14 +52,14 @@ dependencies = [
 
 [[package]]
 name = "picturelogic-core"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "serde",
 ]
 
 [[package]]
 name = "picturelogic-desktop"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "picturelogic-core",
  "picturelogic-render",
@@ -69,7 +69,7 @@ dependencies = [
 
 [[package]]
 name = "picturelogic-kindle"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "picturelogic-core",
  "picturelogic-render",
@@ -78,7 +78,7 @@ dependencies = [
 
 [[package]]
 name = "picturelogic-render"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "picturelogic-core",
  "primitive-app",
