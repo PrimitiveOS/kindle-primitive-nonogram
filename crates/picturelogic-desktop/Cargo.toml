@@ -1,0 +1,11 @@
+[package]
+name = "picturelogic-desktop"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+picturelogic-core.workspace = true
+picturelogic-render.workspace = true
+primitive-app.workspace = true
+primitive-ui.workspace = true

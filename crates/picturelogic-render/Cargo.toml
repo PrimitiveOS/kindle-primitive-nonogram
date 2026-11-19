@@ -1,0 +1,11 @@
+[package]
+name = "picturelogic-render"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+picturelogic-core.workspace = true
+primitive-app.workspace = true
+primitive-ui.workspace = true
+serde_json = "1"
