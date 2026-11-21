@@ -51,42 +51,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "picturelogic-core"
-version = "0.1.1"
-dependencies = [
- "serde",
-]
-
-[[package]]
-name = "picturelogic-desktop"
-version = "0.1.1"
-dependencies = [
- "picturelogic-core",
- "picturelogic-render",
- "primitive-app",
- "primitive-ui",
-]
-
-[[package]]
-name = "picturelogic-kindle"
-version = "0.1.1"
-dependencies = [
- "picturelogic-core",
- "picturelogic-render",
- "primitive-app",
-]
-
-[[package]]
-name = "picturelogic-render"
-version = "0.1.1"
-dependencies = [
- "picturelogic-core",
- "primitive-app",
- "primitive-ui",
- "serde_json",
-]
-
-[[package]]
 name = "bumpalo"
 version = "3.20.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -717,6 +681,42 @@ dependencies = [
 ]
 
 [[package]]
+name = "picturelogic-core"
+version = "0.1.1"
+dependencies = [
+ "serde",
+]
+
+[[package]]
+name = "picturelogic-desktop"
+version = "0.1.1"
+dependencies = [
+ "picturelogic-core",
+ "picturelogic-render",
+ "primitive-app",
+ "primitive-ui",
+]
+
+[[package]]
+name = "picturelogic-kindle"
+version = "0.1.1"
+dependencies = [
+ "picturelogic-core",
+ "picturelogic-render",
+ "primitive-app",
+]
+
+[[package]]
+name = "picturelogic-render"
+version = "0.1.1"
+dependencies = [
+ "picturelogic-core",
+ "primitive-app",
+ "primitive-ui",
+ "serde_json",
+]
+
+[[package]]
 name = "png"
 version = "0.17.16"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -755,7 +755,10 @@ version = "0.1.0"
 dependencies = [
  "kl-core",
  "kl-kindle",
+ "libc",
  "png",
+ "primitive-device",
+ "primitive-input",
  "primitive-ui",
 ]
 
