@@ -1,27 +1,47 @@
+<div align="center">
+
+<img src="icon.png" alt="Nonogram icon" width="110">
+
 # Nonogram
 
-Nonogram reveals small pixel pictures through number clues. It includes twelve original puzzles for PrimitiveOS, with six 5 × 5 boards and six 10 × 10 boards.
+**Reveal a picture from number clues**
 
-![An in-progress 10 × 10 Nonogram puzzle](docs/images/picturelogic.png)
+[![Release](https://img.shields.io/github/v/release/PrimitiveOS/kindle-primitive-nonogram?label=release)](https://github.com/PrimitiveOS/kindle-primitive-nonogram/releases) [![Licence: PolyForm-Noncommercial-1.0.0](https://img.shields.io/badge/licence-PolyForm--Noncommercial--1.0.0-blue)](LICENSE) [![Store downloads](https://img.shields.io/badge/Store%20downloads-51-brightgreen)](https://primitiveos.github.io/kindle-primitive-catalog/v1/index.json)
 
-Each clue gives the lengths of the filled runs in its row or column, in order. Leave at least one empty square between runs. Choose **Fill** to ink squares or **Mark ×** to rule them out. Tap a square again with the same tool to clear it. A clue becomes muted when the line's filled runs match it.
+[**Download**](https://github.com/PrimitiveOS/kindle-primitive-nonogram/releases/latest) · [**Install guide**](INSTALL.md) · [**Changelog**](CHANGELOG.md)
 
-Finish any puzzle to reveal its picture and name. Use **Previous** and **Next** to move between puzzles. Each page keeps its own progress. **Reset** clears the current page after confirmation.
+</div>
 
-## Install
+---
 
-Open **Store** from Primitive Launcher, search for **Nonogram**, and install it. See the [installation guide](INSTALL.md) for local testing.
+Read the clues along each row and column, then fill the matching squares to reveal a picture. Play original 5×5 and 10×10 puzzles offline and resume any puzzle where you left off.
 
-## Desktop preview
+## Quick start
 
-From this repository, with the shared Tools and Launcher repositories beside it, run:
+After setting up PrimitiveOS, open **Store** from Primitive Launcher. Choose **Nonogram** under **Apps**,
+tap **Get**, and open it from the Launcher grid. The [install guide](INSTALL.md) also covers the standalone USB package.
 
-```sh
-cargo test --locked --workspace
-cargo run --locked -p picturelogic-desktop -- docs/images
-```
+## Highlights
 
-The preview runs through a 5 × 5 solve and captures the board in dark mode. [Solved preview](docs/images/picturelogic-solved.png)
+- Read the clues along each row and column, then fill the matching squares to reveal a picture.
+- Play original 5×5 and 10×10 puzzles offline and resume any puzzle where you left off.
+
+## Status
+
+| Device | Status |
+|---|---|
+| Kindle Oasis 3 (1264 × 1680, firmware 5.18.2) | Tested on hardware |
+
+**Current version: 0.1.2.** Changes are in [CHANGELOG.md](CHANGELOG.md).
+
+## Downloads
+
+**51 downloads** from Store, as of 2026-11-21. Store shows the same count on the app page.
+The count is GitHub downloads of this app's release packages, from the [Store catalog](https://primitiveos.github.io/kindle-primitive-catalog/v1/index.json).
+
+## Documentation
+
+[Install guide](INSTALL.md) · [Changelog](CHANGELOG.md)
 
 ## Licence
 
